@@ -91,6 +91,9 @@ body {
 	font-size: 12px;
 	font-weight: 900;
 }
+.header a:hover {
+	color: #69C6BA;
+}
 .home a {
 	color: #69C6BA;
 }
@@ -423,18 +426,23 @@ body {
 	top: 90px;
 	right: 70px;
 }
+.in {
+	flex: 0 1 49%;
+}
 .form-control {
 	border: none;
 	padding: 10px 20px;
-	background-color: #dbd8d8;
+	background-color: #f0f0f0;
 	margin: 8px 0;
+	font-size: 12px;
 }
 .form-control-2 {
 	border: none;
 	padding: 10px 20px;
-	background-color: #dbd8d8;
+	background-color: #f0f0f0;
 	width: 100%;
 	margin: 8px 0;
+	font-size: 12px;
 }
 .section-6 button {
 	border: none;
@@ -444,6 +452,15 @@ body {
 	font-size: 14px;
 	text-transform: uppercase;
 	width: 100%;
+	margin-top: 12px;
+}
+.overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background-color: rgba(0,0,0,0.4);
 }
 .footer {
 	font-size: 0;
